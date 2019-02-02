@@ -1,12 +1,28 @@
 document.addEventListener("DOMContentLoaded", ()=>{
+  const homeDiv = document.getElementById('home-div')
+  const aboutDiv = document.getElementById('about-div')
+  const projectsDiv = document.getElementById('projects-div')
+  aboutDiv.setAttribute("hidden",'')
+  projectsDiv.setAttribute("hidden",'')
+  const navbar = document.getElementById('navbar')
+  navbar.addEventListener("click", (element)=>{
+    homeDiv.setAttribute("hidden",'')
+    aboutDiv.setAttribute("hidden",'')
+    projectsDiv.setAttribute("hidden",'')
 
-  const homeLink = document.getElementById('home')
-  const aboutLink = document.getElementById('about')
-  const projects = document.getElementById('projects')
-  const resume = document.getElementById('resume')
-
-  homeLink.addEventListener("click", ()=>{
-    console.log("lol");
+    switch (element.target.id) {
+      case "home":
+        homeDiv.removeAttribute("hidden")
+        break;
+      case "about":
+        aboutDiv.removeAttribute("hidden")
+        break;
+      case "projects":
+        projectsDiv.removeAttribute("hidden")
+        break;
+      case "resume":
+        break;
+    }
   })
 })
 

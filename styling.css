@@ -2,12 +2,28 @@ body{
   margin-left: 20%;
   margin-top: 4%;
   width: 60%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+/* Navigation Bar  */
+#navbar{
+  background-color: black;
+  color:white;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  font-size: 20px;
+  padding-left: 20%;
 }
 .nav-link{
   margin-right: 10%;
 }
-#home{
-  margin-left: 10%;
+.nav-link:hover{
+  color: #6666ff;
+  cursor: pointer;
+}
+/* Logos  */
+.logos{
+  margin-top: 4%;
+  text-align: center;
 }
 .logos img{
   height: 54px;
@@ -21,5 +37,4 @@ body{
 }
 .logos a{
   margin-right: 10%;
-  margin-top: 4%;
 }
