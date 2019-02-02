@@ -38,3 +38,10 @@ body{
 .logos a{
   margin-right: 10%;
 }
+/* Resume Object */
+#resume-div{
+  margin-top: 5%;
+}
+#resume-div .resume-pdf{
+  height:700px;
+}
