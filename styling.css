@@ -61,10 +61,15 @@ body{
   font-family: 'Noto Serif SC', serif;
   font-size: 18px;
 }
+.image-left{
+  float: left;
+  width:20%;
+}
 
 #about-div img{
-  height: 30%;
-  width: 30%;
+  height: 90%;
+  width: 90%;
   border-radius: 10%;
   vertical-align: top;
+  margin-bottom: 2%;
 }
