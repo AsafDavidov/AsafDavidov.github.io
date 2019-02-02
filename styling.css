@@ -13,3 +13,13 @@ body{
   height: 54px;
   width: 66px;
 }
+.logos img:hover{
+  transform: scale(1.5,1.5);
+}
+.logos > a:first-child{
+  margin-left: 10%;
+}
+.logos a{
+  margin-right: 10%;
+  margin-top: 4%;
+}
