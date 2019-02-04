@@ -73,3 +73,32 @@ body{
   vertical-align: top;
   margin-bottom: 2%;
 }
+/* Projects styling */
+.project-card{
+  border: 10px solid blue;
+  border-image-source: linear-gradient(lightblue, darkblue);
+  border-image-slice: 20;
+  width: 30%;
+  padding: 1%;
+  margin: 1%;
+  text-align: center;
+}
+.project-card li{
+  text-align: left;
+}
+.project-card span{
+  display: inline-block;
+
+}
+.project-card a{
+  text-decoration: none !important;
+  color: #6666ff;
+}
+.project-card a:hover{
+  text-decoration: none !important;
+  color: goldenrod;
+}
+.flex-grid{
+  display: flex;
+  justify-content: space-between;
+}
